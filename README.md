@@ -101,29 +101,3 @@ main();
 ```
 
 ---
-
-##  Verifying Data in MongoDB
-### Using MongoDB Compass
-1. Open **MongoDB Compass**
-2. Connect to `mongodb://localhost:27017`
-3. Navigate to `testDB` → `users` collection
-4. Check if data `{ name: "Alice", age: 25 }` exists
-
-### Using MongoDB Shell
-```sh
-mongosh
-use testDB
-db.users.find().pretty()
-```
-
----
-
-##  Pushing to GitHub
-```sh
-git add .
-git commit -m "Initial commit"
-git push origin main
-```
-
----
-
